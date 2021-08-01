@@ -1,8 +1,7 @@
 PRODUCT_PACKAGES += \
     OnePlusScreenRecorder \
     OnePlusGallery \
-    OnePlusCamera \
-    OnePlusCameraService
+    Gcam
 
 PRODUCT_COPY_FILES += \
     vendor/addons/oneplus/apps/system/etc/permissions/privapp-permissions-oem.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-oem.xml \
